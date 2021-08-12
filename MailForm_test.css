@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+body {
+  padding: 5%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0 0 20px 0;
+}
+
+section {
+  width: 60%;
+  margin: 0 auto;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto 20px auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px 15px;
+  border: 1px solid #999;
+  font-weight: normal;
+  text-align: left;
+}
+
+th {
+  text-align: center;
+  background: #eee;
+  position: relative;
+  width: 40%;
+}
+
+td {
+  background: #fff;
+}
+
+input {
+  padding: 5px;
+}
+
+textarea {
+  padding: 5px;
+  width: 90%;
+}
+
+th span {
+  font-size: 12px;
+  background: #f40;
+  color: #fff;
+  padding: 0 3px;
+  border-radius: 3px;
+  position: absolute;
+  right: 15px;
+}
+
+.submit-button1 {
+  text-align: center;
+}
+
+.submit-button2 {
+  text-align: center;
+}
+
+button {
+  background: #09e;
+  border: 0;
+  border-radius: 5px;
+  padding: 15px 50px;
+  color: #fff;
+  font-size: 18px;
+  transition: .3s;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #18c;
+}
+
+.err {
+  width: 76%;
+  margin-left: 10%;
+  background: #c00;
+  color: #fff;
+  padding: 5px 15px;
+  display: none;
+}
+
+#end {
+  padding: 5%;
+  text-align: center;
+  display: none;
+}
+
+#end h1 {
+  color: #09e;
+}
+
+#end div {
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 5%;
+}
+
+#mail_list table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+#mail_list th {
+  text-align: center;
+  width: 100%;
+}
